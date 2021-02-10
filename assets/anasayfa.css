@@ -1,0 +1,43 @@
+body {
+    background-color: #a90329; 
+}
+.container  {
+    text-align: center;
+    position: relative;
+    left: 0cm; top: 8cm; 
+    color: white;
+    width: 400px;
+    font-family: sans-serif;
+}
+.icon ul{
+    margin: 0%;
+    
+}
+.icon li {
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+}
+.icon li a {
+    color: rgba(20, 19, 19, 0.479);
+    font-size: 40px;
+    position: relative; top: 8cm; left: 430px;
+    transition: all ease-in-out 250ms;
+
+}
+
+.icon li a.facebook:hover{
+    color: blue;
+}
+.icon li a.instagram:hover{
+    color: #d6249f;
+}
+.icon li a.telegram:hover{
+    color: teal;
+}
+.icon li a.youtube:hover{
+    color: rgb(255, 4, 4);
+}
+.icon li a.linkedin:hover{
+    color: rgb(23, 50, 102);
+}
